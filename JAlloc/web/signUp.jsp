@@ -1,6 +1,6 @@
 <%-- 
-    Document   : userLogin
-    Created on : 10 Dec, 2020, 1:42:25 AM
+    Document   : signUp
+    Created on : 17 Dec, 2020, 4:21:53 PM
     Author     : Saish Mendke
 --%>
 
@@ -11,7 +11,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>User Login</title>
+        <title>User Sign-Up</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <style>
             .center{
@@ -30,9 +30,9 @@
         </style>
     </head>
     <body>
-        <br><h1 class="center">USER Login</h1><br><br>
+        <br><h1 class="center">Sign-Up/Register</h1><br><br>
         <div>
-            <form name="user login" action="loginprocess.jsp" method="post">
+            <form name="user signUp" action="signUpprocess.jsp" method="post">
                 <table border="1" class="table">
                     <tbody>
                         <tr>
@@ -43,13 +43,17 @@
                             <td>Password: </td>
                             <td><input type="password" name="password" value="Password" size="25" /></td>
                         </tr>
+                        <tr>
+                            <td>Password: </td>
+                            <td><input type="password" name="confirm-password" value="Password" size="25" /></td>
+                        </tr>
                     </tbody>
-                </table><br>
+                </table>
                 <table class="button">
                     <tbody>
                     <tr class="button">
-                        <td><input type="submit" class="btn btn-info" value="Login"></td>
-                        <td><a href="signUp.jsp" class="btn btn-info" role="button">Sign Up</a></td>
+                        <td><input type="submit" class="btn btn-info" value="Sign-Up"></td>
+                        <td><a href="userLogin.jsp" class="btn btn-info" role="button">Back</a></td>
                 </tr>
                 </tbody>
                 </table>
@@ -57,3 +61,4 @@
         </div>
     </body>
 </html>
+

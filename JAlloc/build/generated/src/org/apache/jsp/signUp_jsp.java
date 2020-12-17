@@ -5,7 +5,7 @@ import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 import java.sql.*;
 
-public final class userLogin_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class signUp_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -52,7 +52,7 @@ public final class userLogin_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<html>\n");
       out.write("    <head>\n");
       out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <title>User Login</title>\n");
+      out.write("        <title>User Sign-Up</title>\n");
       out.write("        <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">\n");
       out.write("        <style>\n");
       out.write("            .center{\n");
@@ -64,16 +64,16 @@ public final class userLogin_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                  margin-right: auto;\n");
       out.write("            }\n");
       out.write("            .button{\n");
-      out.write("                width:60%;\n");
+      out.write("                width:12%;\n");
       out.write("                  margin-left: auto;\n");
       out.write("                  margin-right: auto;\n");
       out.write("            }\n");
       out.write("        </style>\n");
       out.write("    </head>\n");
       out.write("    <body>\n");
-      out.write("        <br><h1 class=\"center\">USER Login</h1><br><br>\n");
+      out.write("        <br><h1 class=\"center\">Sign-Up/Register</h1><br><br>\n");
       out.write("        <div>\n");
-      out.write("            <form name=\"user login\" action=\"loginprocess.jsp\" method=\"post\">\n");
+      out.write("            <form name=\"user signUp\" action=\"signUpprocess.jsp\" method=\"post\">\n");
       out.write("                <table border=\"1\" class=\"table\">\n");
       out.write("                    <tbody>\n");
       out.write("                        <tr>\n");
@@ -84,20 +84,17 @@ public final class userLogin_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                            <td>Password: </td>\n");
       out.write("                            <td><input type=\"password\" name=\"password\" value=\"Password\" size=\"25\" /></td>\n");
       out.write("                        </tr>\n");
+      out.write("                        <tr>\n");
+      out.write("                            <td>Password: </td>\n");
+      out.write("                            <td><input type=\"password\" name=\"confirm-password\" value=\"Confirm Password\" size=\"25\" /></td>\n");
+      out.write("                        </tr>\n");
       out.write("                    </tbody>\n");
-      out.write("                </table><br>\n");
-      out.write("                <table class=\"button\">\n");
-      out.write("                    <tbody>\n");
-      out.write("                    <tr class=\"button\">\n");
-      out.write("                        <td><input type=\"submit\" class=\"btn btn-info\" value=\"Login\"></td>\n");
-      out.write("                        <td><a href=\"signUp.jsp\" class=\"btn btn-info\" role=\"button\">Sign Up</a></td>\n");
-      out.write("                </tr>\n");
-      out.write("                </tbody>\n");
-      out.write("                </table>\n");
+      out.write("                </table><br><div class=\"button\"><input type=\"submit\" class=\"btn btn-info\" value=\"Sign-Up\"></div>\n");
       out.write("            </form><br>\n");
       out.write("        </div>\n");
       out.write("    </body>\n");
       out.write("</html>\n");
+      out.write("\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;

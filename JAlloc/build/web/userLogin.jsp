@@ -18,12 +18,12 @@
                 text-align:center;
             }
             div{
-                width:50%;
+                width:40%;
                   margin-left: auto;
                   margin-right: auto;
             }
             .button{
-                width:12%;
+                width:60%;
                   margin-left: auto;
                   margin-right: auto;
             }
@@ -44,9 +44,16 @@
                             <td><input type="password" name="password" value="Password" size="25" /></td>
                         </tr>
                     </tbody>
+                </table><br>
+                <table class="button">
+                    <tbody>
+                    <tr class="button">
+                        <td><input type="submit" class="btn btn-info" value="Login"></td>
+                        <td><a href="signUp.jsp" class="btn btn-info" role="button">Sign Up</a></td>
+                </tr>
+                </tbody>
                 </table>
-                <br><div class="button"><input type="submit" value="Login"></div>
-            </form>
+            </form><br>
         </div>
     </body>
 </html>

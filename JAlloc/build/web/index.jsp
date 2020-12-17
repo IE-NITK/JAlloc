@@ -22,7 +22,7 @@
       <nav class="navbar navbar-light bg-light justify-content-end">
         <ul class="nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link active" href="userLogin.jsp">User Login</a>
+              <a class="nav-link active" href="userLogin.jsp">User Login/Sign-Up</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Organization Login</a>

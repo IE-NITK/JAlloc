@@ -3,13 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Miscellaneous/JAlloc/JAlloc/web/index.jsp</file>
-            <file>file:/D:/Miscellaneous/JAlloc/JAlloc/web/error.jsp</file>
-            <file>file:/D:/Miscellaneous/JAlloc/JAlloc/web/dashboard.jsp</file>
-            <file>file:/D:/Miscellaneous/JAlloc/JAlloc/web/loginprocess.jsp</file>
-            <file>file:/D:/Miscellaneous/JAlloc/JAlloc/web/errorLogin.jsp</file>
-            <file>file:/D:/Miscellaneous/JAlloc/JAlloc/web/userLogin.jsp</file>
-            <file>file:/D:/Miscellaneous/JAlloc/JAlloc/web/preferenceProcess.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/userLogin.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/loginprocess.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/signUp.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/index.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/signUpprocess.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/errorLogin.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/errorSameUserName.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/errorSignUp.jsp</file>
         </group>
     </open-files>
 </project-private>
