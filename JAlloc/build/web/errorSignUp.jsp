@@ -1,6 +1,6 @@
 <%-- 
-    Document   : errorLogin
-    Created on : 15 Dec, 2020, 12:55:07 AM
+    Document   : errorSignUp
+    Created on : 17 Dec, 2020, 5:01:56 PM
     Author     : Saish Mendke
 --%>
 
@@ -30,8 +30,8 @@
     </head>
     <body>
         <h1 class="center">ERROR</h1>
-        <br><h2 class="center">Invalid User-Name or Password. Kindly Go back and check again! </h2>
-        <form action="userLogin.jsp">
+        <br><h2 class="center">Your Password's do not match or there is a null value. Kindly Check again</h2>
+        <form action="signUp.jsp">
             <br><div class="button"><input class="btn btn-info" type="submit" value="Go back" name="back" /></div>
         </form>
     </body>
