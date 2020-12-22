@@ -27,6 +27,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Organization Login</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="adminLogin.jsp">Admin Login</a>
+            </li>
           </ul>
           </nav>
 <br>
