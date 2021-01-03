@@ -1,6 +1,6 @@
 <%-- 
-    Document   : adminLogin
-    Created on : 23 Dec, 2020, 12:40:59 AM
+    Document   : organizationLogin
+    Created on : 1 Jan, 2021, 6:40:28 PM
     Author     : Saish Mendke
 --%>
 
@@ -30,13 +30,13 @@
         </style>
     </head>
     <body>
-        <br><h1 class="center">ADMIN Login</h1><br><br>
+        <br><h1 class="center">Organization Login</h1><br><br>
         <div>
-            <form name="admin login" action="adminloginprocess.jsp" method="post">
+            <form name="organization login" action="organizationloginprocess.jsp" method="post">
                 <table border="1" class="table">
                     <tbody>
                         <tr>
-                            <td>Name: </td>
+                            <td>Organization Name: </td>
                             <td><input type="text" name="name" value="Enter your name" size="25" /></td>
                         </tr>
                         <tr>
@@ -56,3 +56,4 @@
         </div>
     </body>
 </html>
+

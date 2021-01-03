@@ -86,6 +86,13 @@
                 String userName = null;
                 int number = 1;
 %>
+        <nav class="navbar navbar-light bg-light justify-content-end">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="viewResults.jsp">View Results</a>
+            </li>
+          </ul>
+        </nav><br>
         <h1 class="center">Add Preferrences</h1>
         <form name="college" action="dashboard.jsp">
             <br><br><table border="1" class="table table1">

@@ -107,6 +107,11 @@ public final class dashboard_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    }\n");
       out.write("                    .table th{\n");
       out.write("                        text-align: center;\n");
+      out.write("                        width: 450px;\n");
+      out.write("                    }\n");
+      out.write("                    .table td{\n");
+      out.write("                        text-align: center;\n");
+      out.write("                        width: 450px;\n");
       out.write("                    }\n");
       out.write("                    .center{\n");
       out.write("                        text-align: center;\n");
@@ -129,6 +134,13 @@ public final class dashboard_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("            ");
       out.write("\n");
+      out.write("        <nav class=\"navbar navbar-light bg-light justify-content-end\">\n");
+      out.write("        <ul class=\"nav justify-content-end\">\n");
+      out.write("            <li class=\"nav-item\">\n");
+      out.write("              <a class=\"nav-link active\" href=\"viewResults.jsp\">View Results</a>\n");
+      out.write("            </li>\n");
+      out.write("          </ul>\n");
+      out.write("        </nav><br>\n");
       out.write("        <h1 class=\"center\">Add Preferrences</h1>\n");
       out.write("        <form name=\"college\" action=\"dashboard.jsp\">\n");
       out.write("            <br><br><table border=\"1\" class=\"table table1\">\n");
