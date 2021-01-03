@@ -68,7 +68,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("              <a class=\"nav-link active\" href=\"userLogin.jsp\">User Login/Sign-Up</a>\r\n");
       out.write("            </li>\r\n");
       out.write("            <li class=\"nav-item\">\r\n");
-      out.write("              <a class=\"nav-link\" href=\"#\">Organization Login</a>\r\n");
+      out.write("              <a class=\"nav-link\" href=\"organizationLogin.jsp\">Organization Login</a>\r\n");
       out.write("            </li>\r\n");
       out.write("            <li class=\"nav-item\">\r\n");
       out.write("              <a class=\"nav-link\" href=\"adminLogin.jsp\">Admin Login</a>\r\n");
@@ -77,8 +77,8 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("          </nav>\r\n");
       out.write("<br>\r\n");
 
-    Connection con = DriverManager.getConnection("jdbc:mysql://localhost/jalloc", "root", "1234");
-    PreparedStatement stmt = con.prepareStatement("SELECT * FROM Colleges;");
+    Connection con = DriverManager.getConnection("jdbc:mysql://localhost/jalloc", "root", "");
+    PreparedStatement stmt = con.prepareStatement("SELECT * FROM organizations;");
     ResultSet rs = stmt.executeQuery();
     int i;
     while(rs.next()){

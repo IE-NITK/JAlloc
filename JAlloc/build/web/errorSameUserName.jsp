@@ -36,7 +36,7 @@
     </head>
     <body>
         <h1 class="center">ERROR</h1><br>
-        <h2 class="center">The User Name already exists. Please select a different User Name</h2>
+        <h2 class="center">The value that you entered already exists. Please select a different name.</h2>
         <form action="signUp.jsp">
             <br><div class="button"><input class="btn btn-info" type="submit" value="Go back" name="back" /></div>
         </form>

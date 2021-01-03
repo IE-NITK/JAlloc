@@ -26,7 +26,7 @@
     </head>
     <body>
         <h1 class="center">ERROR</h1>
-        <br><h2 class="center">You have either selected an already set preference or chosen a null value. Kindly Go back and check again! </h2>
+        <br><h2 class="center">You have either selected an already set choice or chosen a null value. Kindly Go back and check again! </h2>
         <form action="dashboard.jsp">
             <input class="btn-primary btn_center" type="submit" value="Go back to Dashboard" name="back" />
         </form>
