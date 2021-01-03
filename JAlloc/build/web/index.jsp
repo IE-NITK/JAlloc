@@ -4,6 +4,8 @@
     Author     : Saish Mendke
 --%>
 
+<%@page import="java.sql.*"%>
+<% Class.forName("com.mysql.jdbc.Driver"); %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -33,81 +35,38 @@
           </ul>
           </nav>
 <br>
-<div class="row">
-    <div class="col">
-      <div class="card">
-        <div class="card-header center">
-            Organization
-          </div>
-        <div class="card-body center">
-          <h5 class="card-title">Org 1</h5>
-          <p class="card-text">Information about Org 1</p>
-          <a href="#" class="btn btn-primary">Visit their website</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <div class="card-header center">
-            Organization
-          </div>
-        <div class="card-body center">
-          <h5 class="card-title">Org 2</h5>
-          <p class="card-text">Information about Org 2</p>
-          <a href="#" class="btn btn-primary">Visit their website</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <div class="card-header center">
-            Organization
-          </div>
-        <div class="card-body center">
-          <h5 class="card-title">Org 3</h5>
-          <p class="card-text">Information about Org 3</p>
-          <a href="#" class="btn btn-primary">Visit their website</a>
-        </div>
-      </div>
-    </div>
-</div><br><br>
-<div class="row">
-    <div class="col">
-      <div class="card">
-        <div class="card-header center">
-            Organization
-          </div>
-        <div class="card-body center">
-          <h5 class="card-title">Org 4</h5>
-          <p class="card-text">Information about Org 4</p>
-          <a href="#" class="btn btn-primary">Visit their website</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <div class="card-header center">
-            Organization
-          </div>
-        <div class="card-body center">
-          <h5 class="card-title">Org 5</h5>
-          <p class="card-text">Information about Org 5</p>
-          <a href="#" class="btn btn-primary">Visit their website</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <div class="card-header center">
-            Organization
-          </div>
-        <div class="card-body center">
-          <h5 class="card-title">Org 6</h5>
-          <p class="card-text">Information about Org 6</p>
-          <a href="#" class="btn btn-primary">Visit their website</a>
-        </div>
-      </div>
-    </div>
-</div>
+<%
+    Connection con = DriverManager.getConnection("jdbc:mysql://localhost/jalloc", "root", "");
+    PreparedStatement stmt = con.prepareStatement("SELECT * FROM Colleges;");
+    ResultSet rs = stmt.executeQuery();
+    int i;
+    while(rs.next()){
+        i = 1;
+        rs.previous();
+%>
+        <div class="row">
+    <%
+        while(i != 4 && rs.next()){
+    %>
+            <div class="col">
+                <div class="card">
+                    <div class="card-header center">
+                        Organization
+                    </div>
+                    <div class="card-body center">
+                        <h5 class="card-title"><%= rs.getString("college") %></h5>
+                        <p class="card-text"><%= rs.getString("info") %></p>
+                        <a href='<%= rs.getString("website") %>' class="btn btn-primary" target="_blank" rel="noopener noreferrer">Visit their website</a>
+                    </div>
+                </div>
+            </div>
+<%
+            i++;
+        }
+%>
+        </div><br><br>
+<%
+    }
+%>
 </body>
 </html>
