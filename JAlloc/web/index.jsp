@@ -27,7 +27,7 @@
               <a class="nav-link active" href="userLogin.jsp">User Login/Sign-Up</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Organization Login</a>
+              <a class="nav-link" href="organizationLogin.jsp">Organization Login</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="adminLogin.jsp">Admin Login</a>
@@ -37,7 +37,7 @@
 <br>
 <%
     Connection con = DriverManager.getConnection("jdbc:mysql://localhost/jalloc", "root", "");
-    PreparedStatement stmt = con.prepareStatement("SELECT * FROM Colleges;");
+    PreparedStatement stmt = con.prepareStatement("SELECT * FROM organizations;");
     ResultSet rs = stmt.executeQuery();
     int i;
     while(rs.next()){

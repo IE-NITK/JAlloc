@@ -30,7 +30,7 @@
     </head>
     <body>
         <h1 class="center">ERROR</h1>
-        <br><h2 class="center">Your Password's do not match or there is a null value. Kindly Check again</h2>
+        <br><h2 class="center">Kindly Check the input fields again.</h2>
         <form action="signUp.jsp">
             <br><div class="button"><input class="btn btn-info" type="submit" value="Go back" name="back" /></div>
         </form>

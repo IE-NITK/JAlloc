@@ -3,18 +3,33 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Manas%20Trivedi/GitHub/JAlloc/JAlloc/web/loginprocess.jsp</file>
-            <file>file:/C:/Users/Manas%20Trivedi/GitHub/JAlloc/JAlloc/web/adminLogin.jsp</file>
-            <file>file:/C:/Users/Manas%20Trivedi/GitHub/JAlloc/JAlloc/web/error.jsp</file>
-            <file>file:/C:/Users/Manas%20Trivedi/GitHub/JAlloc/JAlloc/web/errorSameUserName.jsp</file>
-            <file>file:/C:/Users/Manas%20Trivedi/GitHub/JAlloc/JAlloc/web/dashboard.jsp</file>
-            <file>file:/C:/Users/Manas%20Trivedi/GitHub/JAlloc/JAlloc/web/userLogin.jsp</file>
-            <file>file:/C:/Users/Manas%20Trivedi/GitHub/JAlloc/JAlloc/web/preferenceProcess.jsp</file>
-            <file>file:/C:/Users/Manas%20Trivedi/GitHub/JAlloc/JAlloc/web/errorSignUp.jsp</file>
-            <file>file:/C:/Users/Manas%20Trivedi/GitHub/JAlloc/JAlloc/web/index.jsp</file>
-            <file>file:/C:/Users/Manas%20Trivedi/GitHub/JAlloc/JAlloc/web/errorLogin.jsp</file>
-            <file>file:/C:/Users/Manas%20Trivedi/GitHub/JAlloc/JAlloc/web/signUp.jsp</file>
-            <file>file:/C:/Users/Manas%20Trivedi/GitHub/JAlloc/JAlloc/web/signUpprocess.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/userLogin.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/adminLogin.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/error.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/orgError.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/signUp.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/dashboard.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/updateOrgInfo.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/loginprocess.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/orgDashboard.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/index.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/errorLogin.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/adminloginprocess.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/addCollegeProcess.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/errorSignUp.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/adminDashboard.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/addBranchProcess.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/organizationLogin.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/organizationloginprocess.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/signUpprocess.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/preferenceProcess.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/viewResults.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/errorSameUserName.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/updateInfoProcess.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/allocateSeatsProcess.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/orgResults.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/sameBranchError.jsp</file>
+            <file>file:/C:/Users/Saish%20Mendke/Documents/JAlloc/JAlloc/web/addBranch.jsp</file>
         </group>
     </open-files>
 </project-private>

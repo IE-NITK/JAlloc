@@ -44,14 +44,12 @@ CREATE TABLE colleges
 college varchar(255),
 branch varchar(255),
 totalSeats int(11),
-availableSeats int(11),
-info varchar(1000),
-website varchar(1000)
+availableSeats int(11)
 );
 
-INSERT INTO colleges VALUES('NITK', 'CSE', 120, 120, 'A college on the shores of the Arabian Sea.', 'https://www.nitk.ac.in');
-INSERT INTO colleges VALUES('IITK', 'EEE', 120, 120, 'An institute of national importance in Kanpur.', 'https://www.iitk.ac.in');
-INSERT INTO colleges VALUES('BITS', 'CSE', 150, 150, 'Major Indian private college.', 'https://bits-pilani.ac.in');
+INSERT INTO colleges VALUES('NITK', 'CSE', 120, 120);
+INSERT INTO colleges VALUES('IITK', 'EEE', 120, 120);
+INSERT INTO colleges VALUES('BITS', 'CSE', 150, 150);
 
 CREATE TABLE preference
 (
@@ -60,6 +58,20 @@ college varchar(255),
 branch varchar(255),
 number int(11)
 );
+
+
+CREATE TABLE organizations
+(
+college varchar(255),
+password varchar(255),
+website varchar(255),
+info varchar(255)
+);
+
+INSERT INTO organizations VALUES('NITK', 'NITK', 'https://www.nitk.ac.in', 'A college on the shores of the Arabian Sea.');
+INSERT INTO organizations VALUES('IITK', 'IITK', 'https://www.iitk.ac.in', 'An institute of national importance in Kanpur.');
+INSERT INTO organizations VALUES('BITS', 'BITS', 'https://bits-pilani.ac.in', 'Major Indian private college.');
+
 ```
 
 #### 2. Run the application
